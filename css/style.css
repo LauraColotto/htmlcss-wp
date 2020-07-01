@@ -17,6 +17,14 @@ h1{
   letter-spacing: 0.3em;
 }
 
+h3{
+  font-size: 28px;
+  text-shadow: 0px 2px 3px rgba(150, 150, 150, 1);
+}
+
+p{
+    line-height: 25px;
+}
 /* h2{
   font-size:
 } */
@@ -29,6 +37,9 @@ h1{
 header{
   position: relative;
   width: 100%;
+  margin-top: 10px;
+  text-transform: uppercase;
+
 }
 
 .header-top{
@@ -44,9 +55,34 @@ header{
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  text-transform: uppercase;
+
 }
 
+
+.main-menu{
+  height: 50px;
+  background-color: #666;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+
+.main-menu li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.main-menu a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.main-menu li:hover{
+  display: inline-block;
+  background-color: 373737;
+}
 
 main::after{
   content:"";
@@ -58,30 +94,41 @@ main::after{
 
 
 main{
-  margin: 12px 0 12px;
+  margin: 24px 0;
 }
 
 .col-left, .col-center, .col-right{
     float: left;
+
 }
 
 .col-left{
   height: 300px;
-  width: 23%;
-  background-color: #CC87DA;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+
 }
 
 .col-center{
-  height: 619px;
-  width: 50%;
-  margin: 0 2%;
-  background-color: #730671;
+
+  width: 752px;
+  margin: 0 24px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 10px;
+
+
+}
+
+.col-center h3{
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .col-right{
-  height: 300px;
-  width: 23%;
-  /* background-color: grey; */
+  width: 200px;
 }
 
 
@@ -90,12 +137,16 @@ main{
   width: 100%;
   height: 300px;
   background-color: #CC87DA;
-  margin-bottom:4%;
+  margin-bottom:24px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 10px
 }
 
 footer{
-  position: relative;
+
   width: 100%;
   height: 150px;
   background-color: #A4D2E1;
+  margin-bottom: 10px;
 }
