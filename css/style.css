@@ -178,12 +178,6 @@ footer{
 }
 
 
-/* #link-social::after{
-  content:"";
-  display: block;
-  clear: both;
-} */
-
 #link-social{
   width: 100%;
   height: 115px;
@@ -196,5 +190,8 @@ footer{
   font-size: 40px;
   line-height: 115px;
 
+}
 
+#link-social i:hover{
+  color: #e19400;
 }
