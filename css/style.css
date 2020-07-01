@@ -3,8 +3,22 @@
   margin: 0;
   padding: 0;
 }
-/* body{
-  margin: auto;
+body{
+  background-image: url(../img/natural-default-pattern.png);
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  display: inline-block;
+  border: 4px solid white;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  font-size: 60px;
+  letter-spacing: 0.3em;
+}
+
+/* h2{
+  font-size:
 } */
 
 #container{
@@ -15,9 +29,24 @@
 header{
   position: relative;
   width: 100%;
-  height: 200px;
-  background-color: #FEFE3A;
 }
+
+.header-top{
+  height: 300px;
+  background-image: url(../img/natural-default-header.jpg);
+  border: 10px solid white;
+}
+
+#logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 main::after{
   content:"";
