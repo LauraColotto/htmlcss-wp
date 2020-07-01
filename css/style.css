@@ -45,7 +45,7 @@ header{
 }
 
 .header-top{
-  height: 300px;
+  height: 350px;
   background-image: url(../img/natural-default-header.jpg);
   border: 10px solid white;
 }
@@ -177,6 +177,7 @@ footer{
   color: #cecece;
 }
 
+/* Social */
 
 #link-social{
   width: 100%;
